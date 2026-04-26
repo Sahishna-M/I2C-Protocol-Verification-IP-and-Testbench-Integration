@@ -9,52 +9,6 @@ The verification environment interfaces with the DUT through two interfaces: a W
 
 ---
 
-## Repository Structure
-
-ece745_projects/
-├── verification_ip/
-│   ├── interface_packages/
-│   │   ├── wb_pkg/                  # Wishbone interface and package
-│   │   │   └── src/
-│   │   │       └── wb_if.sv
-│   │   │       └── wb_agent.sv
-│   │   │       └── wb_configuration.sv
-│   │   │       └── wb_coverage.sv
-│   │   │       └── wb_driver.sv
-│   │   │       └── wb_monitor.sv
-│   │   │       └── wb_transaction.sv
-│   │   │   └── wb_pkg.sv
-│   │   └── i2c_pkg/                 # I2C interface and package
-│   │   │    └── src/
-│   │   │       └── i2c_if.sv
-│   │   │       └── i2c_agent.sv
-│   │   │       └── i2c_configuration.sv
-│   │   │       └── i2c_coverage.sv
-│   │   │       └── i2c_driver.sv
-│   │   │       └── i2c_monitor.sv
-│   │   │       └── i2c_transaction.sv
-│   │   │   └── i2c_pkg.sv
-│   └── environment_packages/
-│       └── i2cmb_env_pkg/           # Layered testbench environment
-│           └── src/
-│               ├── i2cmb_test.svh
-│               ├── i2cmb_generator.svh
-│               ├── i2cmb_environment.svh
-│               ├── i2cmb_env_configuration.svh
-│               ├── i2cmb_predictor.svh
-│               ├── i2cmb_scoreboard.svh
-│               └── i2cmb_coverage.svh
-│           └── i2cmb_env_pkg.sv
-│      └── ncsu_pkg/
-└── project_benches/
-    ├── lab_1/                        # Lab 1 baseline bench
-    ├── proj_1/                       # Project 1: I2C Interface
-    ├── proj_2/                       # Project 2: Layered Testbench
-    ├── proj_3/                       # Project 3: Test Plan & Coverage
-    └── proj_4/                       # Project 4: Coverage Closure
-
----
-
 ## Projects
 
 ### Project 1 – I2CMB I2C Interface (`proj_1`)
