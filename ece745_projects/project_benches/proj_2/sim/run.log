@@ -1,0 +1,62 @@
+QuestaSim-64 qrun 2026.1 Utility 2026.01 Jan 25 2026
+Start time: 21:42:34 on Apr 03,2026
+qrun -64 -gui -visualizer -onfinish stop -classdebug -uvmcontrol=all -msgmode both -permit_unmatched_virtual_intf -l run.log -f proj1_filelist.f -sv_seed 123456 -msglimit error -msglimitcount 20 -do "set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do" -debug,livesim -qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc -top top -covermultiuserenv -designfile design.bin
+
+Formatted qrun command:
+qrun
+    -64
+    -gui
+    -visualizer
+    -onfinish stop
+    -classdebug
+    -uvmcontrol=all
+    -msgmode both
+    -permit_unmatched_virtual_intf
+    -l run.log
+    # Expanding -f proj1_filelist.f
+        ../rtl/iicmb_int_pkg.vhd
+        ../rtl/iicmb_pkg.vhd
+        ../rtl/mbyte.vhd
+        ../rtl/mbit.vhd
+        ../rtl/bus_state.vhd
+        ../rtl/filter.vhd
+        ../rtl/conditioner.vhd
+        ../rtl/conditioner_mux.vhd
+        ../rtl/iicmb_m.vhd
+        ../rtl/regblock.vhd
+        ../rtl/wishbone.vhd
+        ../rtl/iicmb_m_wb.vhd
+        ../../../verification_ip/interface_packages/wb_pkg/src/wb_if.sv
+        ../../../verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv
+        ../testbench/top.sv
+    -sv_seed 123456
+    -msglimit error
+    -msglimitcount 20
+    -do "set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do"
+    -debug,livesim
+    -qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc
+    -top top
+    -covermultiuserenv
+    -designfile design.bin
+
+** Note: (qrun-220) '/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/modelsim.ini' is used as the ini file.
+** Note: (qrun-20238) Verilog file "../testbench/top.sv" is recompiled because file had error(s) in last compilation run.
+QuestaSim-64 vlog 2026.1 Compiler 2026.01 Jan 25 2026
+Start time: 21:42:34 on Apr 03,2026
+vlog -64 -msglimit error -msglimitcount 20 -covermultiuserenv ../../../verification_ip/interface_packages/wb_pkg/src/wb_if.sv ../../../verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv ../testbench/top.sv -work qrun.out/work -statslog qrun.out/stats_logeReAYR -csession=incr 
+** Note: (vlog-20238) Verilog file "../testbench/top.sv" is recompiled because file had error(s) in last compilation run.
+-- Skipping ../../../verification_ip/interface_packages/wb_pkg/src/wb_if.sv
+-- Skipping ../../../verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv
+-- Compiling module top
+** Error: ../testbench/top.sv(23): (vlog-13006) Could not find the package (ncsu_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: ../testbench/top.sv(24): (vlog-13006) Could not find the package (wb_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: ../testbench/top.sv(25): (vlog-13006) Could not find the package (i2c_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: ../testbench/top.sv(26): (vlog-13006) Could not find the package (i2cmb_env_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: (vlog-13069) ../testbench/top.sv(130): near "#": syntax error, unexpected '#'.
+End time: 21:42:35 on Apr 03,2026, Elapsed time: 0:00:01
+Errors: 5, Warnings: 0
+End time: 21:42:35 on Apr 03,2026, Elapsed time: 0:00:01
+*** Summary *********************************************
+    qrun: Errors:   0, Warnings:   0
+    vlog: Errors:   5, Warnings:   0
+  Totals: Errors:   5, Warnings:   0

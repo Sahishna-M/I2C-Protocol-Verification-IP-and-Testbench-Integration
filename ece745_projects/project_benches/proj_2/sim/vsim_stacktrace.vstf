@@ -1,0 +1,52 @@
+# Current time Sat Mar 28 14:24:48 2026
+# Program = vsim
+# Id = "2026.1"
+# Version = "2026.01"
+# Date = "Jan 25 2026"
+# Platform = "linux_x86_64"
+# Signature = 263cf61bb6a087aacdb252b2865e054d
+# 0    0x00007feff04f0103: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_driver.svh:22'
+# 1    0x00007feff04f0eb4: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_driver.svh:17'
+# 2    0x00007feff04ed824: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_agent.svh:38'
+# 3    0x00007feff04eda4c: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_agent.svh:37'
+# 4    0x00007feff04f4c5d: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_generator.svh:36'
+# 5    0x00007feff04f558b: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_generator.svh:69'
+# 6    0x00007feff04f1b22: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_test.svh:23'
+# 7    0x00007feff04f897c: '../testbench/top.sv:138'
+# 8    0x000000000569ea36: '<unknown (@0x569ea36)>'
+# 9    0x00000000004b0a0c: '<unknown (@0x4b0a0c)>'
+# 10   0x0000000000855883: '<unknown (@0x855883)>'
+# 11   0x0000000000ef0d0e: '<unknown (@0xef0d0e)>'
+# 12   0x0000000000ec341d: '<unknown (@0xec341d)>'
+# 13   0x0000000000ede0f0: '<unknown (@0xede0f0)>'
+# 14   0x000000000125753d: '<unknown (@0x125753d)>'
+# 15   0x0000000005c27ded: '<unknown (@0x5c27ded)>'
+# End of Stack Trace
+
+
+# Current time Sat Mar 28 14:33:58 2026
+# Program = vsim
+# Id = "2026.1"
+# Version = "2026.01"
+# Date = "Jan 25 2026"
+# Platform = "linux_x86_64"
+# Signature = 263cf61bb6a087aacdb252b2865e054d
+# 0    0x00007feff04f01c3: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_driver.svh:22'
+# 1    0x00007feff04f0f74: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_driver.svh:17'
+# 2    0x00007feff04ed8e4: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_agent.svh:38'
+# 3    0x00007feff04edb0c: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_agent.svh:37'
+# 4    0x00007feff04f4e9d: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_generator.svh:36'
+# 5    0x00007feff04f57cb: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_generator.svh:69'
+# 6    0x00007feff04f1be2: '/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_test.svh:23'
+# 7    0x00007feff04f8bbc: '../testbench/top.sv:138'
+# 8    0x000000000569ea36: '<unknown (@0x569ea36)>'
+# 9    0x00000000004b0a0c: '<unknown (@0x4b0a0c)>'
+# 10   0x0000000000855883: '<unknown (@0x855883)>'
+# 11   0x0000000000ef0d0e: '<unknown (@0xef0d0e)>'
+# 12   0x0000000000ec341d: '<unknown (@0xec341d)>'
+# 13   0x0000000000ede0f0: '<unknown (@0xede0f0)>'
+# 14   0x000000000125753d: '<unknown (@0x125753d)>'
+# 15   0x0000000005c27ded: '<unknown (@0x5c27ded)>'
+# End of Stack Trace
+
+

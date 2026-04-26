@@ -1,0 +1,1 @@
+/mnt/apps/public/COE/mg_apps/questa2025.1_1/questasim/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 16810272 +acc top -o optimized_debug_top_tb +__betafsm

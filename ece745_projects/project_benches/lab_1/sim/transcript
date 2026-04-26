@@ -1,0 +1,188 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim -i -classdebug -msgmode both -do "set NoQuitOnFinish 1; do wave.do" optimized_debug_top_tb 
+# Start time: 18:30:51 on Feb 27,2026
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.wb_if(fast__1)
+# Loading work.i2c_if(fast__1)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.iicmb_m_wb(str)#1
+# Loading work.wishbone(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.iicmb_pkg(body)
+# Loading work.regblock(rtl)#1
+# Loading work.iicmb_int_pkg(body)
+# Loading work.iicmb_m(str)#1
+# Loading work.mbyte(rtl)#1
+# Loading work.mbit(rtl)#1
+# Loading work.conditioner_mux(str)#1
+# Loading work.conditioner(str)#1
+# Loading work.filter(rtl)#1
+# Loading work.bus_state(rtl)#1
+# ** Warning: (vsim-3016) Port type 'triand' is incompatible with connection type 'tri1', coercing to 'tri1' (port 'sda').
+#    Time: 0 ps  Iteration: 0  Instance: /top/i2c_bus File: ../testbench/top.sv Line: 343
+# set NoQuitOnFinish 1
+# 1
+#  do wave.do
+# ** Error: unknown or ambiguous subcommand "tags": must be activecursor, add, addcursor, clipboard, collapse, configcursor, create, cursor, cursorconfig, cursortime, deletecursor, edit, editwrite, expand, export, exportvcd, group, guiObjGetUPFInfo, guiObjHasUPFInfo, import, interrupt, map, modify, overlay, pah, positioncursor, refresh, seecursor, seetime, sort, ungroup, write, zoom, zoomcursor, zoomfull, zoomin, zoomlast, zoomout, or zoomrange
+# Executing ONERROR command at macro ./wave.do line 2
+# ** Error: unknown or ambiguous subcommand "update": must be activecursor, add, addcursor, clipboard, collapse, configcursor, create, cursor, cursorconfig, cursortime, deletecursor, edit, editwrite, expand, export, exportvcd, group, guiObjGetUPFInfo, guiObjHasUPFInfo, import, interrupt, map, modify, overlay, pah, positioncursor, refresh, seecursor, seetime, sort, ungroup, write, zoom, zoomcursor, zoomfull, zoomin, zoomlast, zoomout, or zoomrange
+# Executing ONERROR command at macro ./wave.do line 3
+# 0 ps
+# 1 ns
+# ** Error: No help for wave group available.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: unknown or ambiguous subcommand "index": must be activecursor, add, addcursor, clipboard, collapse, configcursor, create, cursor, cursorconfig, cursortime, deletecursor, edit, editwrite, expand, export, exportvcd, group, guiObjGetUPFInfo, guiObjHasUPFInfo, import, interrupt, map, modify, overlay, pah, positioncursor, refresh, seecursor, seetime, sort, ungroup, write, zoom, zoomcursor, zoomfull, zoomin, zoomlast, zoomout, or zoomrange
+# Executing ONERROR command at macro ./wave.do line 21
+# ** Error: unknown or ambiguous subcommand "update": must be activecursor, add, addcursor, clipboard, collapse, configcursor, create, cursor, cursorconfig, cursortime, deletecursor, edit, editwrite, expand, export, exportvcd, group, guiObjGetUPFInfo, guiObjHasUPFInfo, import, interrupt, map, modify, overlay, pah, positioncursor, refresh, seecursor, seetime, sort, ungroup, write, zoom, zoomcursor, zoomfull, zoomin, zoomlast, zoomout, or zoomrange
+# Executing ONERROR command at macro ./wave.do line 22
+# ** Error: unknown or ambiguous subcommand "top": must be activecursor, add, addcursor, clipboard, collapse, configcursor, create, cursor, cursorconfig, cursortime, deletecursor, edit, editwrite, expand, export, exportvcd, group, guiObjGetUPFInfo, guiObjHasUPFInfo, import, interrupt, map, modify, overlay, pah, positioncursor, refresh, seecursor, seetime, sort, ungroup, write, zoom, zoomcursor, zoomfull, zoomin, zoomlast, zoomout, or zoomrange
+# Executing ONERROR command at macro ./wave.do line 23
+run -all
+# I2C_BUS WRITE Transfer: '{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31}
+# I2C_BUS READ Transfer: '{100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131}
+# I2C_BUS WRITE Transfer: '{64}
+# I2C_BUS READ Transfer: '{63}
+# I2C_BUS WRITE Transfer: '{65}
+# I2C_BUS READ Transfer: '{62}
+# I2C_BUS WRITE Transfer: '{66}
+# I2C_BUS READ Transfer: '{61}
+# I2C_BUS WRITE Transfer: '{67}
+# I2C_BUS READ Transfer: '{60}
+# I2C_BUS WRITE Transfer: '{68}
+# I2C_BUS READ Transfer: '{59}
+# I2C_BUS WRITE Transfer: '{69}
+# I2C_BUS READ Transfer: '{58}
+# I2C_BUS WRITE Transfer: '{70}
+# I2C_BUS READ Transfer: '{57}
+# I2C_BUS WRITE Transfer: '{71}
+# I2C_BUS READ Transfer: '{56}
+# I2C_BUS WRITE Transfer: '{72}
+# I2C_BUS READ Transfer: '{55}
+# I2C_BUS WRITE Transfer: '{73}
+# I2C_BUS READ Transfer: '{54}
+# I2C_BUS WRITE Transfer: '{74}
+# I2C_BUS READ Transfer: '{53}
+# I2C_BUS WRITE Transfer: '{75}
+# I2C_BUS READ Transfer: '{52}
+# I2C_BUS WRITE Transfer: '{76}
+# I2C_BUS READ Transfer: '{51}
+# I2C_BUS WRITE Transfer: '{77}
+# I2C_BUS READ Transfer: '{50}
+# I2C_BUS WRITE Transfer: '{78}
+# I2C_BUS READ Transfer: '{49}
+# I2C_BUS WRITE Transfer: '{79}
+# I2C_BUS READ Transfer: '{48}
+# I2C_BUS WRITE Transfer: '{80}
+# I2C_BUS READ Transfer: '{47}
+# I2C_BUS WRITE Transfer: '{81}
+# I2C_BUS READ Transfer: '{46}
+# I2C_BUS WRITE Transfer: '{82}
+# I2C_BUS READ Transfer: '{45}
+# I2C_BUS WRITE Transfer: '{83}
+# I2C_BUS READ Transfer: '{44}
+# I2C_BUS WRITE Transfer: '{84}
+# I2C_BUS READ Transfer: '{43}
+# I2C_BUS WRITE Transfer: '{85}
+# I2C_BUS READ Transfer: '{42}
+# I2C_BUS WRITE Transfer: '{86}
+# I2C_BUS READ Transfer: '{41}
+# I2C_BUS WRITE Transfer: '{87}
+# I2C_BUS READ Transfer: '{40}
+# I2C_BUS WRITE Transfer: '{88}
+# I2C_BUS READ Transfer: '{39}
+# I2C_BUS WRITE Transfer: '{89}
+# I2C_BUS READ Transfer: '{38}
+# I2C_BUS WRITE Transfer: '{90}
+# I2C_BUS READ Transfer: '{37}
+# I2C_BUS WRITE Transfer: '{91}
+# I2C_BUS READ Transfer: '{36}
+# I2C_BUS WRITE Transfer: '{92}
+# I2C_BUS READ Transfer: '{35}
+# I2C_BUS WRITE Transfer: '{93}
+# I2C_BUS READ Transfer: '{34}
+# I2C_BUS WRITE Transfer: '{94}
+# I2C_BUS READ Transfer: '{33}
+# I2C_BUS WRITE Transfer: '{95}
+# I2C_BUS READ Transfer: '{32}
+# I2C_BUS WRITE Transfer: '{96}
+# I2C_BUS READ Transfer: '{31}
+# I2C_BUS WRITE Transfer: '{97}
+# I2C_BUS READ Transfer: '{30}
+# I2C_BUS WRITE Transfer: '{98}
+# I2C_BUS READ Transfer: '{29}
+# I2C_BUS WRITE Transfer: '{99}
+# I2C_BUS READ Transfer: '{28}
+# I2C_BUS WRITE Transfer: '{100}
+# I2C_BUS READ Transfer: '{27}
+# I2C_BUS WRITE Transfer: '{101}
+# I2C_BUS READ Transfer: '{26}
+# I2C_BUS WRITE Transfer: '{102}
+# I2C_BUS READ Transfer: '{25}
+# I2C_BUS WRITE Transfer: '{103}
+# I2C_BUS READ Transfer: '{24}
+# I2C_BUS WRITE Transfer: '{104}
+# I2C_BUS READ Transfer: '{23}
+# I2C_BUS WRITE Transfer: '{105}
+# I2C_BUS READ Transfer: '{22}
+# I2C_BUS WRITE Transfer: '{106}
+# I2C_BUS READ Transfer: '{21}
+# I2C_BUS WRITE Transfer: '{107}
+# I2C_BUS READ Transfer: '{20}
+# I2C_BUS WRITE Transfer: '{108}
+# I2C_BUS READ Transfer: '{19}
+# I2C_BUS WRITE Transfer: '{109}
+# I2C_BUS READ Transfer: '{18}
+# I2C_BUS WRITE Transfer: '{110}
+# I2C_BUS READ Transfer: '{17}
+# I2C_BUS WRITE Transfer: '{111}
+# I2C_BUS READ Transfer: '{16}
+# I2C_BUS WRITE Transfer: '{112}
+# I2C_BUS READ Transfer: '{15}
+# I2C_BUS WRITE Transfer: '{113}
+# I2C_BUS READ Transfer: '{14}
+# I2C_BUS WRITE Transfer: '{114}
+# I2C_BUS READ Transfer: '{13}
+# I2C_BUS WRITE Transfer: '{115}
+# I2C_BUS READ Transfer: '{12}
+# I2C_BUS WRITE Transfer: '{116}
+# I2C_BUS READ Transfer: '{11}
+# I2C_BUS WRITE Transfer: '{117}
+# I2C_BUS READ Transfer: '{10}
+# I2C_BUS WRITE Transfer: '{118}
+# I2C_BUS READ Transfer: '{9}
+# I2C_BUS WRITE Transfer: '{119}
+# I2C_BUS READ Transfer: '{8}
+# I2C_BUS WRITE Transfer: '{120}
+# I2C_BUS READ Transfer: '{7}
+# I2C_BUS WRITE Transfer: '{121}
+# I2C_BUS READ Transfer: '{6}
+# I2C_BUS WRITE Transfer: '{122}
+# I2C_BUS READ Transfer: '{5}
+# I2C_BUS WRITE Transfer: '{123}
+# I2C_BUS READ Transfer: '{4}
+# I2C_BUS WRITE Transfer: '{124}
+# I2C_BUS READ Transfer: '{3}
+# I2C_BUS WRITE Transfer: '{125}
+# I2C_BUS READ Transfer: '{2}
+# I2C_BUS WRITE Transfer: '{126}
+# I2C_BUS READ Transfer: '{1}
+# I2C_BUS WRITE Transfer: '{127}
+# I2C_BUS READ Transfer: '{0}
+# End time: 18:34:55 on Feb 27,2026, Elapsed time: 0:04:04
+# Errors: 6, Warnings: 1

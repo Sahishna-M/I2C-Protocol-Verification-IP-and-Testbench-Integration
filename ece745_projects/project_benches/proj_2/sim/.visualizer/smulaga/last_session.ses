@@ -1,0 +1,56 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="3" skip_do_file="0">
+ <app argc="8">
+  <argv pos="0" value="vsim"/>
+  <argv pos="1" value="+onfinish+stop"/>
+  <argv pos="2" value="design.bin"/>
+  <argv pos="3" value="-do"/>
+  <argv pos="4" value="set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do"/>
+  <argv pos="5" value="-l"/>
+  <argv pos="6" value="run.log"/>
+  <argv pos="7" value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth-permit_unmatched_virtual_intf-sv_seed123456-msglimiterror-msglimitcount20-qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-visualizer=design.bin-statslogqrun.out/stats_logqrun_opt-appendlog"/>
+ </app>
+ <window_config>
+  <expanded_mode enabled="false"/>
+  <dockareas right="450" top="253" left="232" bottom="250"/>
+  <taborder left="files+structure+" bottom="transcript+"/>
+  <activetab left="structure" bottom="transcript"/>
+  <window dock_location="left" visible="1" type="files" windowstate="" geometry="AdnQywADAAD///uM///8LP///gv///4L///7jP///Cz///4L///+C/////8AAAAABgD///uM///8LP///gv///4L" undocked="0"/>
+  <window dock_location="left" visible="1" type="structure" windowstate="" geometry="AdnQywADAAAAAAAAAAAAPAAAAOcAAAHkAAAAAAAAADwAAADnAAAB5AAAAAAAAAAABgAAAAAAAAAAPAAAAOcAAAHk" undocked="0"/>
+  <window dock_location="bottom" visible="1" type="transcript" windowstate="" geometry="AdnQywADAAAAAAAAAAACCgAABK8AAAMDAAAAAAAAAgoAAASvAAADAwAAAAAAAAAABgAAAAAAAAACCgAABK8AAAMD" undocked="0"/>
+  <window dock_location="right" visible="1" type="rtl" windowstate="AAAA/wAAAAD9AAAAAwAAAAAAAADoAAAByPwCAAAAAfwAAAA8AAAByAAAAL8BAAAe+gAAAAICAAAAA/sAAAAkAHQAZQBzAHQAYgBlAG4AYwBoAFUAdgBtAFcAaQBuAEMAbABzAAAAAAD/////AAABGwD////7AAAACgBmAGkAbABlAHMBAAAAAP////8AAABfAP////sAAAASAHMAdAByAHUAYwB0AHUAcgBlAQAAAAD/////AAAAoAD///8AAAACAAAEsAAAAP38AQAAAAH7AAAAKABXAGEAdgBlADAAXwB3AGEAdgBlAEYAbwByAG0AVwBpAG4AQwBsAHMAAAAAAAAABLAAAAAAAAAAAAAAAAMAAASwAAAA+vwBAAAAAfsAAAAUAHQAcgBhAG4AcwBjAHIAaQBwAHQBAAAAAAAABLAAAABiAP///wAAA8IAAAHIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAoAE0AYQBpAG4AXwBIAGkAcwB0AG8AcgB5AF8AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAJABSAFQATABfAFcAaQBuAGQAbwB3AF8AVABvAG8AbABCAGEAcgEAAAB7/////wAAAAAAAAAAAAAANgBHAEkARABfAFMAcgBjAFYAaQBlAHcAXwBPAHAAdABpAG8AbgBzAF8AVABvAG8AbABCAGEAcgEAAAEQ/////wAAAAAAAAAAAAAARgBHAEkARABfAE0AYQBpAG4AUwByAGMAVwBpAG4AZABvAHcAXwBUAGkAbQBlAFMAYwBhAGwAZQBfAFQAbwBvAGwAQgBhAHIBAAABWf////8AAAAAAAAAAAAAACIARABlAGIAdQBnAGcAaQBuAGcAIABUAG8AbwBsAGIAYQByAQAAA5L/////AAAAAAAAAAA=" geometry="AdnQywADAAAAAAAyAAAAMgAABOEAAANRAAAAMgAAADIAAAThAAADUQAAAAAAAAAABgAAAAAyAAAAMgAABOEAAANR" undocked="0"/>
+  <window dock_location="left" visible="0" type="testbench" windowstate="" geometry="AdnQywADAAAAAAAAAAAAAAAAAQMAAAHoAAAAAAAAAAAAAAEDAAAB6AAAAAAAAAAABgAAAAAAAAAAAAAAAQMAAAHo" undocked="0"/>
+  <window dock_location="top" visible="0" type="wave" windowstate="" geometry="" undocked="0"/>
+  <window dock_location="center" path="/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/testbench/top.sv" visible="0" type="source" windowstate="" firstVisibleLine="2" geometry="AdnQywADAAAAAAAAAAAAAAAAA70AAADAAAAAAAAAAAAAAAO9AAAAwAAAAAAAAAAABgAAAAAAAAAAAAAAA70AAADA" undocked="0"/>
+  <window dock_location="center" path="/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv" id="1" visible="1" type="source" windowstate="" firstVisibleLine="141" geometry="AdnQywADAAAAAAAAAAAAAAAAA70AAAGmAAAAAAAAAAAAAAO9AAABpgAAAAAAAAAABgAAAAAAAAAAAAAAA70AAAGm" undocked="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="sim" waveType="0" fileName="/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/sim/qwave.db"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser filepath="/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/project_benches/proj_2/testbench/top.sv" instancename="top"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 3"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/mnt/ncsudrive/s/smulaga/ECE745/ece745_projects/verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv" primary="true" instancename="top.i2c_bus"/>
+   <sourcetclcommands>
+    <tcl command="src activate source1"/>
+    <tcl command="src top 142"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curRadix="8" customDisplayTimeUnitListStr="" curActiveWaveFile="sim" curDisplayTimeUnit="-11" curDisplayTimeUnitStr="10ps">
+   <curTime lowtime="3647975204" hightime="1"/>
+  </watchTower_cur_setting>
+  <files/>
+  <structure selection="top.i2c_bus"/>
+  <transcript/>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top.i2c_bus"/>
+</session>
