@@ -1,6 +1,6 @@
 ## Overview
 
-This repository contains a series of four verification projects for the **I2C Multiple Bus Controller (I2CMB)** DUT, developed incrementally as part of ECE 745 – ASIC Verification at NC State University. 
+This repository contains a series of four verification projects for the **I2C Multiple Bus Controller (I2CMB)** DUT. 
 The verification environment is written in SystemVerilog and simulated using Questa/ModelSim. 
 Each project builds upon the previous one, culminating in a full layered testbench with functional coverage, a formal test plan, and a complete regression suite.
 
